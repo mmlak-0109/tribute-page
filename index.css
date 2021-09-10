@@ -7,11 +7,20 @@ main {
   font-size: 1.5rem;
   background-color: #8fbace;
   padding: 10px;
+  margin: 0 auto;
+  max-width: 75%;
+  border-radius: 5px;
 }
 
 #title {
   font-size: 4rem;
   text-align: center;
+}
+
+@media (max-width: 390px) {
+  #title {
+    font-size: 3rem;
+  }
 }
 
 #img-div {
@@ -22,10 +31,17 @@ main {
 img {
   max-width: 100%;
   display: block;
+  margin: 0 auto;
 }
 
 figcaption {
   margin-top: 10px;
+}
+
+@media (max-width: 630px) {
+  figcaption {
+    font-size: 1rem;
+  }
 }
 
 p {
